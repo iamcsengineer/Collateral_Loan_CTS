@@ -1,0 +1,21 @@
+version: 0.2
+phases:
+   pre_build:
+      commands:
+      - echo "Entered the pre-build phase - Nothing to do"
+   build:
+      commands:
+      - echo "Entered build phase"
+      - mvn clean install
+   post_build:
+      commands:
+      - echo Build completed on `date`
+      # - echo Creating the source bundle with the Procfile
+      - mv target/portal.war .
+      # - zip source_bundle.zip portal.war Procfile
+      # - echo source_bundle creation completed
+artifacts:
+   files:
+   # - ./source_bundle.zip
+   - Procfile
+   - portal.war

@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "auth.url",
+    "type": "java.lang.String",
+    "description": "A description for 'auth.url'"
+  },
+  {
+    "name": "auth.name",
+    "type": "java.lang.String",
+    "description": "A description for 'auth.name'"
+  },
+  {
+    "name": "risk.url",
+    "type": "java.lang.String",
+    "description": "A description for 'risk.url'"
+  },
+  {
+    "name": "risk.name",
+    "type": "java.lang.String",
+    "description": "A description for 'risk.name'"
+  },
+  {
+    "name": "loan.url",
+    "type": "java.lang.String",
+    "description": "A description for 'loan.url'"
+  },
+  {
+    "name": "loan.name",
+    "type": "java.lang.String",
+    "description": "A description for 'loan.name'"
+  }
+]}
